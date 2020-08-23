@@ -1074,7 +1074,7 @@ input[type="text"] {
 #colorlib-footer {
   background: #303133;
   color: rgba(255, 255, 255, 0.6) !important;
-  padding-top: 6em; }
+  padding-top: 0; }
   #colorlib-footer .colorlib-widget p {
     font-size: 13px; }
   @media screen and (max-width: 768px) {
@@ -1114,7 +1114,7 @@ input[type="text"] {
     font-weight: 700; }
   #colorlib-footer .copy {
     background: #262626;
-    padding: 7em 0; }
+    padding: 3em 0; }
     #colorlib-footer .copy p {
       margin-bottom: 0;
       color: #fff;
@@ -1337,7 +1337,7 @@ input[type="text"] {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
-  border-radius: 30px;
+  border-radius: 15px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1351,13 +1351,14 @@ input[type="text"] {
     box-shadow: none !important;
     outline: none !important; }
 
-.btn-primary {
-  background: #4aca85;
+.btn-primary {    
   color: #fff;
-  border: 1px solid #4aca85; }
+  background-color: #5739ce;
+  background-image: linear-gradient(#6f55d5, #5739ce);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.12);}
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #5ed092 !important;
-    border-color: #5ed092 !important; }
+    background-image: linear-gradient(#6347d4, #4422ce);
+    border-color: #5432ce !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #4aca85;
